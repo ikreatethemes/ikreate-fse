@@ -153,3 +153,100 @@ endif;
  * Load core file.
 */
 require_once get_template_directory() . '/core/init.php';
+
+
+/** 
+ * Upgrade To Pro Version Get More Demo Import 
+*/
+if (!function_exists('Ikreate_Fse_DemoData_Importer')) {
+
+    function Ikreate_Fse_DemoData_Importer($demos) {
+
+        $ikreatefse = array(
+            'ikreatefse' => array(
+				'name' => 'Ikreate FSE',
+				'external_url' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/ikreatefse/ikreatefse.zip',
+				'image' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/ikreatefse/ikreatefse.png',
+				'preview_url' => 'https://demo.ikreatethemes.com/ikreatefse/',
+				'menuArray' => array(
+				),
+				'home_slug' => '',
+				'tags' => array(
+					'free' => 'Free',
+				),
+				'pagebuilder' => array(
+					'gutenburg' => "Gutenburg"
+				),
+				'plugins' => array(
+					'contact-form-7' => array(
+						'name' => 'Contact Form 7',
+						'source' => 'wordpress',
+						'file_path' => 'contact-form-7/wp-contact-form-7.php'
+					)
+				)   
+			),
+			'digitalagency' => array(
+				'name' => 'Digital Agency',
+				'external_url' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/digitalagency/digitalagency.zip',
+				'image' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/digitalagency/digitalagency.png',
+				'preview_url' => 'https://demo.ikreatethemes.com/ikreatefse/digital-agency/',
+				'menuArray' => array(
+				),
+				'home_slug' => '',
+				'tags' => array(
+					'free' => 'Free',
+				),
+				'pagebuilder' => array(
+					'gutenburg' => "Gutenburg"
+				),
+				'plugins' => array(
+					'contact-form-7' => array(
+						'name' => 'Contact Form 7',
+						'source' => 'wordpress',
+						'file_path' => 'contact-form-7/wp-contact-form-7.php'
+					)
+				)   
+			),
+			'medical' => array(
+				'name' => 'Medical',
+				'external_url' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/medical/medical.zip',
+				'image' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/medical/medical.png',
+				'preview_url' => 'https://demo.ikreatethemes.com/ikreatefse/medical/',
+				'menuArray' => array(
+				),
+				'home_slug' => '',
+				'tags' => array(
+					'free' => 'Free',
+				),
+				'pagebuilder' => array(
+					'gutenburg' => "Gutenburg"
+				),
+				'plugins' => array(
+					'contact-form-7' => array(
+						'name' => 'Contact Form 7',
+						'source' => 'wordpress',
+						'file_path' => 'contact-form-7/wp-contact-form-7.php'
+					)
+				)   
+			),
+			'premium' => array(
+				'name' => 'Coming Soon',
+				'external_url' => '#',
+				'image' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/comingsoon.png',
+				'preview_url' => '#',
+				'menuArray' => array(
+				),
+				'home_slug' => '',
+				'tags' => array(
+					'premium' => 'Premium',
+				)   
+			) 
+		);
+
+        $demos = array_merge($demos, $ikreatefse);
+
+        return $demos;
+    }
+
+}
+add_filter('ikdi_demo_data_config', 'Ikreate_Fse_DemoData_Importer');

@@ -439,6 +439,7 @@ if ( ! function_exists( 'ikreate_fse_register_block_patterns' ) ){
 				.wp-block-button.is-style-secondary-button .wp-block-button__link:hover,
 				.editor-styles-wrapper .is-style-secondary-button.wp-block-button .wp-block-button__link:hover {
 					color: var(--wp--preset--color--white);
+					border:2px solid var(--wp--preset--color--secondary);
 				}
 				
 				.wp-block-button.is-style-secondary-button .wp-block-button__link:hover:before,

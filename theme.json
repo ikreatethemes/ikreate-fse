@@ -410,7 +410,8 @@
   },
   "styles": {
     "color": {
-      "text": "var(--wp--preset--color--black)"
+      "text": "var(--wp--preset--color--black)",
+      "background": "var(--wp--preset--color--wwhite)"
     },
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--poppins)",

@@ -4,7 +4,7 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, c
 Requires at least: 5.8
 Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Theme URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
@@ -90,6 +90,11 @@ Ikreate FSE is distributed under the terms of the GNU GPL.
 	https://pxhere.com/en/photo/1046502
 
 == Changelog ==
+
+= 1.0.5 May 22th 2024 =
+** Add Welcome Page
+** Fixed patterns desing issue.
+** Add 3 different one click demo import file.
 
 = 1.0.4 May 13th 2024 =
 ** Fixed Skip to content issue in front page.
