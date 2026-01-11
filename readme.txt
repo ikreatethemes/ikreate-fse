@@ -4,7 +4,7 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, c
 Requires at least: 5.8
 Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Theme URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
@@ -65,28 +65,35 @@ Ikreate FSE is distributed under the terms of the GNU GPL.
 
 	All the images are used from http://pxhere.com under License CC0 Public Domain.
 
-	https://www.pexels.com/photo/group-of-people-sitting-inside-room-2422294/
+	https://pxhere.com/en/photo/1450065
 
-	https://www.pexels.com/photo/group-of-people-near-wall-2422290/
+	https://pxhere.com/en/photo/1456581
 
-	https://www.pexels.com/photo/happy-couple-reading-together-4669840/
+	https://pxhere.com/en/photo/1685212
 
-	https://www.pexels.com/photo/woman-discussing-problem-during-group-therapy-7176305/
+	https://pxhere.com/en/photo/480551
 
-	https://www.pexels.com/photo/overwhelmed-black-man-discussing-problem-with-female-psychologist-5699467/
+	https://pxhere.com/en/photo/595817
 
-	https://www.pexels.com/photo/black-psychologist-with-african-american-client-5699424/
+	https://pxhere.com/en/photo/649367
 
-	https://www.pexels.com/photo/flat-lay-photography-of-person-touching-silver-ipad-on-world-map-chart-beside-black-hat-1051077/
+	https://pxhere.com/en/photo/559565
 
-	https://www.pexels.com/photo/man-looking-at-ipad-pro-2698465/
+	https://pxhere.com/en/photo/1452897
 
-	https://www.pexels.com/photo/a-portrait-of-a-man-wearing-wireless-earphones-8053511/
+	https://pxhere.com/en/photo/1040941
 
-	https://www.pexels.com/photo/portrait-photo-of-smiling-man-with-his-arms-crossed-standing-in-front-of-a-wall-2379004/
-	
+	https://pxhere.com/en/photo/1166607
+
+	https://pxhere.com/en/photo/601668
+
+	https://pxhere.com/en/photo/1046502
 
 == Changelog ==
+
+= 1.0.4 May 13th 2024 =
+** Fixed Skip to content issue in front page.
+** Remove all pexels image and add new images.
 
 = 1.0.3 May 6th 2024 =
 ** Add home page.

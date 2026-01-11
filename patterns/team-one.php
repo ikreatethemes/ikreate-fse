@@ -147,7 +147,7 @@
 <div class="wp-block-column box-shadow"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"50%","className":"box"} -->
 <div class="wp-block-column is-vertically-aligned-center box" style="flex-basis:50%"><!-- wp:image {"id":3501,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team/team-1-ik.webp" alt="" class="wp-image-3501"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team/team-3-ik.webp" alt="" class="wp-image-3501"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
