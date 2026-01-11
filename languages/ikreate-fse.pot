@@ -1,0 +1,1190 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ikreate FSE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-23 14:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Domain: ikreate-fse"
+
+#: patterns/contact-area-two.php:35 patterns/contact-area-one.php:57
+msgid "( Give us a free any time )"
+msgstr ""
+
+#: patterns/works-process.php:52
+msgid "01"
+msgstr ""
+
+#: patterns/works-process.php:90
+msgid "02"
+msgstr ""
+
+#: patterns/works-process.php:128
+msgid "03"
+msgstr ""
+
+#: patterns/contact-area-two.php:21 patterns/contact-area-one.php:39
+msgid "1010 Avenue, New York NY 10018 US & Koteshwor - 32, Kathmandu, Nepal"
+msgstr ""
+
+#: patterns/contact-area-two.php:31 patterns/contact-area-one.php:53
+msgid "24 / 7 Call Support"
+msgstr ""
+
+#: patterns/hidden-404.php:12
+msgid "404"
+msgstr ""
+
+#: patterns/call-action-one.php:25
+msgid "540-325-1523 Or 540-328-1265"
+msgstr ""
+
+#: patterns/footer.php:64
+msgid "7300-7398 Colonial Rd, Brooklyn, NY 11209"
+msgstr ""
+
+#: patterns/footer.php:42
+msgid "9:00 - 5:00"
+msgstr ""
+
+#: patterns/aboutus-two.php:39 patterns/call-action-one.php:31
+msgid "A fast & easy application"
+msgstr ""
+
+#: patterns/aboutus-two.php:33
+msgid ""
+"A wonderful serenity has taken of my entire soul, like these sweet mornings "
+"of spring which I enjoy with my whole heart. I am alone, and feel the charm"
+msgstr ""
+
+#: patterns/about-us.php:43
+msgid ""
+"A wonderful serenity has taken possession of my entire soul, like these "
+"sweet mornings of spring which I enjoy with my whole heart. I am alone, and "
+"feel the charm."
+msgstr ""
+
+#: patterns/quick-contact.php:52
+msgid ""
+"A wonderful serenity has taken possession of my entire, like these sweet "
+"mornings of spring which I enjoy with my heart."
+msgstr ""
+
+#: patterns/about-us.php:23
+msgid "ABOUT IKREATE FSE FREE WORDPRESS THEME"
+msgstr ""
+
+#: patterns/service-two.php:18 patterns/service-three.php:17
+#: patterns/service-one.php:17
+msgid "Almost 35+ Years of Experience in Providing Consulting Services"
+msgstr ""
+
+#: patterns/call-action-one.php:25
+msgid "any question"
+msgstr ""
+
+#: patterns/sidebar.php:26
+msgid "Archieves"
+msgstr ""
+
+#: patterns/gallery.php:17
+msgid "Awesome Portfolio"
+msgstr ""
+
+#: patterns/hidden-404.php:29
+msgid "Back To Home"
+msgstr ""
+
+#: patterns/blog-post-two.php:17
+msgid "Business News & Articles"
+msgstr ""
+
+#: patterns/slider-one.php:20
+msgid ""
+"Business WordPress themes have been optimized to give our visitors the best "
+"experience in terms of theme support. The Perfect Clean Design Framework for "
+"Startup Your Businesses."
+msgstr ""
+
+#: patterns/slider-one.php:33
+msgid "Buy Themes"
+msgstr ""
+
+#: patterns/call-action-one.php:25
+msgid "Call to ask"
+msgstr ""
+
+#: patterns/sidebar.php:17
+msgid "Category"
+msgstr ""
+
+#: patterns/slider-one.php:12
+msgid "Challenges Are Our Passion"
+msgstr ""
+
+#: core/block-patterns.php:227
+msgid "Check Mark"
+msgstr ""
+
+#: core/block-patterns.php:266
+msgid "Circle List"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Black"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Error"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "foreground"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Link"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Link Hover"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Shadow Opacity"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Success"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Triadic "
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Yellow"
+msgstr ""
+
+#: patterns/gallery.php:133 patterns/gallery.php:227
+msgid "Committed and creative"
+msgstr ""
+
+#: patterns/aboutus-one.php:69
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/quick-contact.php:30
+msgid "Contact us"
+msgstr ""
+
+#: core/block-patterns.php:714
+msgid "Copyright  &copy; "
+msgstr ""
+
+#: patterns/call-action-one.php:13
+msgid "Creates Signs of Wealth For Everyone"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Blank Templates"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Full Width"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Right Sidebar"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Single with Sidebar"
+msgstr ""
+
+#: patterns/team.php:98
+msgid "Daniel Patrick"
+msgstr ""
+
+#: patterns/team.php:42 patterns/team-one.php:45
+msgid "Developer"
+msgstr ""
+
+#: patterns/aboutus-two.php:61 patterns/call-action-one.php:61
+msgid "Digital insurance policy"
+msgstr ""
+
+#: patterns/service-two.php:82 patterns/service-three.php:81
+#: patterns/service-one.php:81
+msgid "Digital Marketing"
+msgstr ""
+
+#: patterns/call-action-two.php:23 patterns/call-action-one.php:72
+msgid "Discover More"
+msgstr ""
+
+#: patterns/video-call-action.php:12 patterns/video-call-action-two.php:12
+#: patterns/video-call-action-one.php:12
+msgid "Do you need help for yourself or a loved one?"
+msgstr ""
+
+#: patterns/gallery.php:39
+msgid "Dreaming Things off"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Foreground and Background"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Foreground and Secondary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Foreground and Tertiary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Primary and Background"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Primary and Secondary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Duotone name"
+msgid "Primary and Tertiary"
+msgstr ""
+
+#: patterns/aboutus-one.php:56
+msgid "each work integrally and believe in the power of easy"
+msgstr ""
+
+#: patterns/works-process.php:33
+msgid "Easy Online Booking"
+msgstr ""
+
+#: patterns/team.php:164
+msgid "Engineer"
+msgstr ""
+
+#: patterns/team.php:17 patterns/team-one.php:17
+msgid "Expert Team In the Field"
+msgstr ""
+
+#: patterns/aboutus-two.php:53 patterns/call-action-one.php:49
+msgid "Expertly crafted policies"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Arizonia"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Exo"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Lato"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Open Sans"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Oswold"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Roboto Condensed"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "System Font"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XLarge"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XMedium"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XSmall"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XXLarge"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XXXLarge"
+msgstr ""
+
+#: patterns/about-us.php:61
+msgid "Founder, CEO"
+msgstr ""
+
+#: patterns/aboutus-one.php:33
+msgid "Free Storage in the Cloud"
+msgstr ""
+
+#: patterns/service-two.php:42
+msgid ""
+"Fully customizable responsive modern free WordPress business theme, "
+"especially for App-related landing pages."
+msgstr ""
+
+#: patterns/works-process.php:13
+msgid "Fully Customization Theme"
+msgstr ""
+
+#: patterns/footer.php:125
+msgid "Get Free Estimate"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Diagonal Primary to Triadic"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Diagonal Secondary to tertiary Left"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical Primary to Foreground"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical Secondary to Primary"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical Secondary to Success"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical Tertiary to Primary"
+msgstr ""
+
+#: patterns/aboutus-two.php:43 patterns/call-action-one.php:35
+msgid "Growing your business"
+msgstr ""
+
+#: patterns/clients-area-one.php:17 patterns/clients-area-two.php:17
+msgid "Happy To Have These Amazing Clients"
+msgstr ""
+
+#: patterns/works-process.php:113
+msgid ""
+"Have a question? Our professional support is ready to answer your questions. "
+"All our team member support requests will be replied in 24 hours or less."
+msgstr ""
+
+#: patterns/team-one.php:50 patterns/team-one.php:166
+msgid ""
+"Have a question? Our professional support team is ready to answer your "
+"questions. All our team member support requests will be replied in 24 hours "
+"or less."
+msgstr ""
+
+#: patterns/service-three.php:85 patterns/service-one.php:85
+msgid ""
+"Have a question? Our support team is ready to answer your questions. All our "
+"team member support requests will be replied in 24 hours or less."
+msgstr ""
+
+#: patterns/service-two.php:86
+msgid ""
+"Have a question? Our support team is ready to answer your questions. "
+"requests will be replied in 24 hours or less."
+msgstr ""
+
+#: patterns/footer.php:21
+msgid ""
+"Have a question? professional support team are ready to answer your "
+"questions."
+msgstr ""
+
+#: patterns/quick-contact.php:78
+msgid ""
+"Have a question? the professional support team is ready to answer your "
+"questions. which I enjoy with my whole heart."
+msgstr ""
+
+#. URI of the theme
+msgid "http://ikreatethemes.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid ""
+"https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-"
+"wordpress-theme/"
+msgstr ""
+
+#. Name of the theme
+#: core/block-patterns.php:25
+msgid "Ikreate FSE"
+msgstr ""
+
+#: patterns/service-three.php:41 patterns/service-one.php:41
+msgid ""
+"Ikreate FSE is a clean, beautiful, and fully customizable responsive modern "
+"free WordPress business theme, especially for App-related landing pages."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Ikreate FSE is a fast and clean multi-purpose free WordPress theme, designed "
+"for various business-related websites. You can utilize this theme to launch "
+"a business, showcase your services, and enhance your website without the "
+"need for any coding experience. Ikreate FSE boasts 25+ pattern blocks and "
+"pre defind templates, providing users with additional design options for "
+"their website. Ikreate FSE is also responsive, browser compatible, SEO-"
+"friendly, RTL compatible, speed-optimized, and translation-ready. These "
+"elements ensure that your website is easily accessible, user-friendly, and "
+"search engine optimized, facilitating your target audience in finding your "
+"company online. If you encounter any issues while using our theme, you can "
+"refer to our theme documentation or reach out to our friendly support staff "
+"at [https://ikreatethemes.com/support/]."
+msgstr ""
+
+#: core/block-patterns.php:716
+msgid "Ikreate Themes"
+msgstr ""
+
+#. Author of the theme
+msgid "ikreatethemes"
+msgstr ""
+
+#: patterns/gallery.php:55 patterns/gallery.php:95 patterns/gallery.php:151
+#: patterns/gallery.php:189
+msgid "Industries"
+msgstr ""
+
+#: patterns/quick-contact.php:82 patterns/contact-area-two.php:49
+#: patterns/contact-area-one.php:75
+msgid "info@ikreatethemes.com"
+msgstr ""
+
+#: patterns/hidden-404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: patterns/team.php:190 patterns/team-one.php:119
+msgid "Jason Thomson"
+msgstr ""
+
+#: patterns/team-one.php:88 patterns/team-one.php:128
+msgid ""
+"Leverage agile and our frameworks provide all types of robust synopsis for "
+"overviews, Corporate strategy fosters thinking to further the overall value "
+"proposition."
+msgstr ""
+
+#: patterns/service-three.php:63 patterns/service-one.php:63
+msgid ""
+"Leverage agile frameworks to provide a robust synopsis for overviews. "
+"Corporate strategy fosters thinking to further the overall value proposition."
+msgstr ""
+
+#: patterns/service-two.php:64
+msgid ""
+"Leverage agile frameworks to provide a robust synopsis for overviews. "
+"Corporate strategy fosters thinking value proposition."
+msgstr ""
+
+#: patterns/works-process.php:75
+msgid ""
+"Leverage framework agile to provide a robust synopsis for overviews. "
+"Corporate strategy fosters thinking to further the overall value proposition."
+msgstr ""
+
+#: patterns/call-action-two.php:13
+msgid "Life Insurance That Creates Signs of Wealth For Everyone."
+msgstr ""
+
+#: patterns/aboutus-one.php:17
+msgid "Life Insurance Themes Create Signs of Wealth For Everyone"
+msgstr ""
+
+#: patterns/service-two.php:108
+msgid ""
+"Live workshop where we define the main problems and challenges before "
+"building a strategic plan moving forward."
+msgstr ""
+
+#: patterns/aboutus-two.php:25
+msgid ""
+"Live workshop where we define the main problems and challenges of building"
+msgstr ""
+
+#: patterns/team.php:102
+msgid "Manager"
+msgstr ""
+
+#: patterns/team.php:160
+msgid "Mesiva Sccot"
+msgstr ""
+
+#: patterns/team.php:130 patterns/team-one.php:157
+msgid "Michael Jonathan"
+msgstr ""
+
+#: patterns/aboutus-two.php:86 patterns/about-us.php:57
+msgid "Micle Duneesz"
+msgstr ""
+
+#: patterns/quick-contact.php:18
+msgid ""
+"Molestie ac feugiat sed lectus vestibulum mattis ullamcorper Amet nulla "
+"facilisi morbi tempus iaculis urna id volutpat. Tempor commodo ullamcorper a "
+"lacus"
+msgstr ""
+
+#: patterns/footer.php:38
+msgid "Monday – Saturday"
+msgstr ""
+
+#: patterns/aboutus-two.php:21
+msgid "More About Business Roy Pro Theme"
+msgstr ""
+
+#: patterns/aboutus-one.php:13
+msgid "More About Free WordPress Theme"
+msgstr ""
+
+#: patterns/aboutus-two.php:67 patterns/aboutus-one.php:65
+msgid "More About Us"
+msgstr ""
+
+#: patterns/blog-post-one.php:17
+msgid "News & Articles"
+msgstr ""
+
+#: core/block-patterns.php:457 core/block-patterns.php:651
+msgid "No Border"
+msgstr ""
+
+#: patterns/gallery.php:73 patterns/gallery.php:113 patterns/gallery.php:169
+#: patterns/gallery.php:207
+msgid "Office"
+msgstr ""
+
+#: patterns/footer.php:54
+msgid "Office in New York"
+msgstr ""
+
+#: patterns/contact-area-two.php:17 patterns/contact-area-one.php:35
+msgid "Office Location"
+msgstr ""
+
+#: patterns/hidden-404.php:16
+msgid "Oops! That page can’t be found."
+msgstr ""
+
+#: patterns/contact-area-two.php:49 patterns/contact-area-one.php:75
+msgid "or Support"
+msgstr ""
+
+#: patterns/sidebar.php:76
+msgid "Our Calendar"
+msgstr ""
+
+#: patterns/clients-area-one.php:13 patterns/clients-area-two.php:13
+msgid "Our Clients"
+msgstr ""
+
+#: patterns/aboutus-one.php:51
+msgid "Our Expert Team Members"
+msgstr ""
+
+#: patterns/blog-post-two.php:13 patterns/blog-post-one.php:13
+msgid "Our Latest Posts"
+msgstr ""
+
+#: patterns/footer.php:130
+msgid ""
+"Our online scheduling and payment system is safe, Have a question? "
+"professional support team will answer your questions."
+msgstr ""
+
+#: patterns/team.php:13 patterns/team-one.php:13
+msgid "Our Team"
+msgstr ""
+
+#: patterns/hidden-404.php:2
+msgctxt "Pattern title"
+msgid "404"
+msgstr ""
+
+#: patterns/about-us.php:2
+msgctxt "Pattern title"
+msgid "About Us"
+msgstr ""
+
+#: patterns/aboutus-one.php:2
+msgctxt "Pattern title"
+msgid "About Us One"
+msgstr ""
+
+#: patterns/aboutus-two.php:2
+msgctxt "Pattern title"
+msgid "About Us Two"
+msgstr ""
+
+#: patterns/slider-one.php:2
+msgctxt "Pattern title"
+msgid "Banner One"
+msgstr ""
+
+#: patterns/blog-post-one.php:2
+msgctxt "Pattern title"
+msgid "Blog Post One"
+msgstr ""
+
+#: patterns/blog-post-two.php:2
+msgctxt "Pattern title"
+msgid "Blog Post Two"
+msgstr ""
+
+#: patterns/breadcrumb.php:2
+msgctxt "Pattern title"
+msgid "Breadcrumb"
+msgstr ""
+
+#: patterns/breadcrumb-archive.php:2
+msgctxt "Pattern title"
+msgid "Breadcrumb Archive"
+msgstr ""
+
+#: patterns/breadcrumb-search.php:2
+msgctxt "Pattern title"
+msgid "Breadcrumb Search"
+msgstr ""
+
+#: patterns/call-action-one.php:2
+msgctxt "Pattern title"
+msgid "Call To Action One"
+msgstr ""
+
+#: patterns/call-action-two.php:2
+msgctxt "Pattern title"
+msgid "Call To Action Two"
+msgstr ""
+
+#: patterns/clients-area-one.php:2 patterns/clients.php:2
+msgctxt "Pattern title"
+msgid "Clients Area One"
+msgstr ""
+
+#: patterns/clients-area-two.php:2
+msgctxt "Pattern title"
+msgid "Clients Area Two"
+msgstr ""
+
+#: patterns/hidden-comments.php:2
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr ""
+
+#: patterns/contact-area-one.php:2
+msgctxt "Pattern title"
+msgid "Contact Area One"
+msgstr ""
+
+#: patterns/contact-area-two.php:2
+msgctxt "Pattern title"
+msgid "Contact Area Two"
+msgstr ""
+
+#: patterns/footer.php:2
+msgctxt "Pattern title"
+msgid "Footer ( Default )"
+msgstr ""
+
+#: patterns/hidden-no-results.php:2
+msgctxt "Pattern title"
+msgid "No results"
+msgstr ""
+
+#: patterns/gallery.php:2
+msgctxt "Pattern title"
+msgid "Portfolio Area"
+msgstr ""
+
+#: patterns/post-meta.php:2
+msgctxt "Pattern title"
+msgid "Post meta"
+msgstr ""
+
+#: patterns/posts-2-col.php:2
+msgctxt "Pattern title"
+msgid "Posts List 2 Columns"
+msgstr ""
+
+#: patterns/posts-3-col.php:2
+msgctxt "Pattern title"
+msgid "Posts List 3 Columns"
+msgstr ""
+
+#: patterns/quick-contact.php:2
+msgctxt "Pattern title"
+msgid "Quick Contact Area"
+msgstr ""
+
+#: patterns/service-one.php:2
+msgctxt "Pattern title"
+msgid "Service Area One"
+msgstr ""
+
+#: patterns/service-three.php:2
+msgctxt "Pattern title"
+msgid "Service Area Three"
+msgstr ""
+
+#: patterns/service-two.php:3
+msgctxt "Pattern title"
+msgid "Service Area Two"
+msgstr ""
+
+#: patterns/sidebar.php:2
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/team.php:2
+msgctxt "Pattern title"
+msgid "Team Member One"
+msgstr ""
+
+#: patterns/team-one.php:2
+msgctxt "Pattern title"
+msgid "Team Member Two"
+msgstr ""
+
+#: patterns/video-call-action.php:2
+msgctxt "Pattern title"
+msgid "Video Call To Action"
+msgstr ""
+
+#: patterns/video-call-action-one.php:2
+msgctxt "Pattern title"
+msgid "Video Call To Action One"
+msgstr ""
+
+#: patterns/video-call-action-two.php:2
+msgctxt "Pattern title"
+msgid "Video Call To Action Two"
+msgstr ""
+
+#: patterns/works-process.php:2
+msgctxt "Pattern title"
+msgid "Works Process"
+msgstr ""
+
+#: patterns/post-meta.php:22
+msgctxt "Prefix for the post category block: in category name"
+msgid "in "
+msgstr ""
+
+#: patterns/post-meta.php:17
+msgctxt "Prefix for the post date block: On date"
+msgid "on"
+msgstr ""
+
+#: patterns/aboutus-one.php:38
+msgid "Premium version for additional features & better support."
+msgstr ""
+
+#: core/block-patterns.php:337 core/block-patterns.php:552
+msgid "Primary Button"
+msgstr ""
+
+#: patterns/aboutus-two.php:57 patterns/call-action-one.php:53
+msgid "Procedures whereas processes"
+msgstr ""
+
+#: patterns/service-two.php:104
+msgid "Product Design"
+msgstr ""
+
+#: patterns/quick-contact.php:74
+msgid "Quick Contact support"
+msgstr ""
+
+#: patterns/video-call-action-two.php:25 patterns/contact-area-one.php:14
+msgid "Quick Get In Touch"
+msgstr ""
+
+#: patterns/service-two.php:47 patterns/service-two.php:69
+#: patterns/service-two.php:91 patterns/service-two.php:113
+#: patterns/video-call-action.php:24 patterns/quick-contact.php:58
+#: patterns/works-process.php:42 patterns/works-process.php:80
+#: patterns/works-process.php:118 patterns/video-call-action-two.php:40
+#: patterns/service-three.php:46 patterns/service-three.php:68
+#: patterns/service-three.php:90 patterns/service-one.php:46
+#: patterns/service-one.php:68 patterns/service-one.php:90
+#: patterns/video-call-action-one.php:26
+msgid "Read More"
+msgstr ""
+
+#: patterns/quick-contact.php:48
+msgid "Read our travel blog"
+msgstr ""
+
+#: patterns/sidebar.php:35
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/gallery.php:13
+msgid "Recent Work"
+msgstr ""
+
+#: patterns/footer.php:135
+msgid "REQUEST WITH FORM"
+msgstr ""
+
+#: patterns/team.php:38 patterns/team-one.php:41
+msgid "Roma De Suzat"
+msgstr ""
+
+#: core/block-patterns.php:400 core/block-patterns.php:599
+msgid "Secondary Button"
+msgstr ""
+
+#: patterns/team.php:194 patterns/aboutus-two.php:90 patterns/team-one.php:123
+msgid "Senior Marketer"
+msgstr ""
+
+#: patterns/service-two.php:14 patterns/service-three.php:13
+#: patterns/service-one.php:13
+msgid "Service We Provide"
+msgstr ""
+
+#: core/block-patterns.php:58 core/block-patterns.php:91
+#: core/block-patterns.php:128 core/block-patterns.php:161
+#: core/block-patterns.php:194 core/block-patterns.php:305
+msgid "Sidebar Widget"
+msgstr ""
+
+#: patterns/sidebar.php:44
+msgid "Social Links"
+msgstr ""
+
+#: patterns/gallery.php:77 patterns/gallery.php:117 patterns/gallery.php:173
+#: patterns/gallery.php:211
+msgid "Somewhere on earth"
+msgstr ""
+
+#: patterns/hidden-no-results.php:10
+msgctxt ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: patterns/quick-contact.php:25
+msgid "Start exploring the world today!"
+msgstr ""
+
+#: patterns/quick-contact.php:14
+msgid "Start your journey"
+msgstr ""
+
+#: patterns/service-two.php:60
+msgid "Student Counseling"
+msgstr ""
+
+#: patterns/works-process.php:109
+msgid "Success Project"
+msgstr ""
+
+#: patterns/aboutus-two.php:47 patterns/call-action-one.php:39
+msgid "Support banking loan"
+msgstr ""
+
+#: patterns/contact-area-two.php:49 patterns/contact-area-one.php:75
+msgid "support@ikreatethemes.com"
+msgstr ""
+
+#: patterns/sidebar.php:67
+msgid "Tag Cloud"
+msgstr ""
+
+#: patterns/team.php:134 patterns/team-one.php:161
+msgid "Team Leader"
+msgstr ""
+
+#: patterns/gallery.php:35 patterns/gallery.php:129 patterns/gallery.php:223
+msgid "Team Work"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Footer ( Default )"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Header ( Default )"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/gallery.php:59 patterns/gallery.php:99 patterns/gallery.php:155
+#: patterns/gallery.php:193
+msgid "Trust pays off"
+msgstr ""
+
+#: patterns/footer.php:114
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/aboutus-two.php:71
+msgid "Video"
+msgstr ""
+
+#: core/block-patterns.php:489
+msgid "Video Icon"
+msgstr ""
+
+#: patterns/works-process.php:18
+msgid "We Are A Professional Best WordPress Theme Agency"
+msgstr ""
+
+#: patterns/slider-one.php:16
+msgid "We Can Give You The Best Support"
+msgstr ""
+
+#: patterns/about-us.php:29
+msgid "We Have The Most Online Users All Over The World"
+msgstr ""
+
+#: patterns/team.php:72 patterns/team-one.php:83
+msgid "Web Developer"
+msgstr ""
+
+#: patterns/service-two.php:38 patterns/service-three.php:37
+#: patterns/service-one.php:37
+msgid "Web Developments"
+msgstr ""
+
+#: patterns/call-action-one.php:17
+msgid ""
+"Welcome and thank you for installing ikreate free thems is a clean, "
+"beautiful, and fully customizable responsive modern free WordPress business "
+"theme, especially for App-related landing pages. And of course, the premium "
+"version for additional features and better support, Unlock all the "
+"possibilities with free WordPress themes."
+msgstr ""
+
+#: patterns/about-us.php:33
+msgid ""
+"Welcome and thank you for installing our free WordPress themes. Ikreate FSE "
+"is a clean, beautiful, and fully customizable responsive modern free "
+"WordPress business theme, especially for App-related landing pages. And of "
+"course, the premium version for additional features & support."
+msgstr ""
+
+#: patterns/aboutus-one.php:21
+msgid ""
+"Welcome and thank you for installing our free WordPress themes. Ikreate FSE "
+"is a clean, beautiful, and fully customizable responsive modern free "
+"WordPress business theme, especially for App-related landing pages. And of "
+"course, the premium version for additional features and better support."
+msgstr ""
+
+#: patterns/call-action-two.php:17
+msgid ""
+"Welcome and thank you for installing the free WordPress theme is a clean, "
+"beautiful, and fully customizable responsive modern free WordPress business "
+"theme, especially for App-related landing pages. And of course, the premium "
+"version for additional features and better support, Unlock all the "
+"possibilities with Business Roy, Have a question? Our professional support "
+"team is ready to answer your questions."
+msgstr ""
+
+#: patterns/service-two.php:23 patterns/team.php:22 patterns/gallery.php:22
+#: patterns/blog-post-two.php:22 patterns/works-process.php:22
+#: patterns/clients-area-one.php:22 patterns/team-one.php:22
+#: patterns/clients-area-two.php:22 patterns/service-three.php:22
+#: patterns/service-one.php:22 patterns/blog-post-one.php:22
+msgid ""
+"Welcome and thank you for installing the free WordPress theme. Ikreate FSE "
+"is a clean, beautiful, and fully customizable responsive modern free "
+"WordPress business theme, especially for App-related landing pages."
+msgstr ""
+
+#: patterns/video-call-action.php:16
+msgid ""
+"Welcome and thank you for installing themes. Free theme is a clean, "
+"beautiful, and fully customizable responsive modern free WordPress business "
+"theme, especially for App-related landing pages."
+msgstr ""
+
+#: patterns/video-call-action-two.php:16 patterns/video-call-action-one.php:16
+msgid ""
+"Welcome and thank you for installing themes. Ikreate use is a clean, "
+"beautiful, and fully customizable responsive modern free WordPress business "
+"theme, especially for App-related landing pages."
+msgstr ""
+
+#: patterns/team.php:68 patterns/team-one.php:79
+msgid "William Ross"
+msgstr ""
+
+#: patterns/works-process.php:37
+msgid ""
+"WordPress theme is a clean, beautiful, and fully customizable responsive "
+"modern free WordPress business theme, especially for App-related landing "
+"pages."
+msgstr ""
+
+#: patterns/slider-one.php:27 patterns/call-action-two.php:27
+#: patterns/call-action-one.php:68
+msgid "WordPress Themes"
+msgstr ""
+
+#: patterns/footer.php:32
+msgid "Work Days"
+msgstr ""
+
+#: patterns/works-process.php:71
+msgid "Work Processing"
+msgstr ""
+
+#: patterns/service-three.php:59 patterns/service-one.php:59
+msgid "Working Environment"
+msgstr ""
+
+#: patterns/call-action-one.php:57
+msgid "Worldwide Coverage"
+msgstr ""
+
+#: patterns/call-action-one.php:43
+msgid "Worldwide coverage"
+msgstr ""
+
+#: patterns/contact-area-two.php:45 patterns/contact-area-one.php:71
+msgid "Write Us Email"
+msgstr ""
+
+#: patterns/call-action-one.php:21
+msgid ""
+"“If you want real marketing that works and effective implementation thank "
+"you for installing business roy WordPress theme – Lifest got you covered.”"
+msgstr ""
+
+#: patterns/aboutus-two.php:29
+msgid ""
+"“If you want real marketing that works and effective implementation thank "
+"you for installing ikreate fse free WordPress theme – Lifest got you covered."
+"”"
+msgstr ""
