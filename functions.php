@@ -102,12 +102,7 @@ if ( ! function_exists( 'ikreate_fse_ikreatethemes_fonts_url' ) ) :
 			$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css2' );
 		}
 
-		if ( ! class_exists( 'WPTT_WebFont_Loader' ) ) {
-			// Load Google fonts from Local.
-			require_once get_theme_file_path( 'core/wptt-webfont-loader.php' );
-		}
-
-		return esc_url( wptt_get_webfont_url( $fonts_url ) );
+		return $fonts_url;
 	}
 endif;
 
@@ -137,11 +132,6 @@ if ( ! function_exists( 'ikreate_fse_ikreatethemes_load_scripts' ) ) {
 }
 
 
-// add_action( 'ikreate-fse-pro-link', function() {
-// 	return "https://ikreatethemes.com/wordpress-themes/ikreate-fse/";
-// } );
-
-
 add_action( 'admin_init', 'ikreate_fse_ikreatethemes_editor_styles' );
 
 if ( ! function_exists( 'ikreate_fse_ikreatethemes_editor_styles' ) ) :
@@ -157,35 +147,6 @@ if ( ! function_exists( 'ikreate_fse_ikreatethemes_editor_styles' ) ) :
 				ikreate_fse_ikreatethemes_fonts_url(),
 			)
 		);
-	}
-endif;
-
-
-
-add_filter( 'body_class', 'ikreate_fse_ikreatethemes_add_default_mode_body_class' );
-
-if ( ! function_exists( 'ikreate_fse_ikreatethemes_add_default_mode_body_class' ) ) :
-
-	function ikreate_fse_ikreatethemes_add_default_mode_body_class( array $classes ): array {
-		/**
-		 * Adds default mode body class.
-		 *
-		 * @param array $classes Array of body classes.
-		 *
-		 * @since 1.0.0
-		 *
-		 * @return array
-		 */
-		$global_settings = wp_get_global_settings();
-		
-		// print_r($global_settings) ; exit;
-		$dark_mode       = $global_settings['custom']['darkMode'] ?? [];
-
-		$light_mode      = $global_settings['custom']['lightMode'] ?? [];
-		
-		$classes[]       = $light_mode && ! $dark_mode ? 'default-mode-light' : 'default-mode-dark';
-
-		return $classes;
 	}
 endif;
 

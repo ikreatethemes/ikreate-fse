@@ -4,7 +4,7 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, c
 Requires at least: 5.8
 Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Theme URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
@@ -91,6 +91,13 @@ Ikreate FSE is distributed under the terms of the GNU GPL.
 	
 
 == Changelog ==
+
+= 1.0.2 April 30th 2024 =
+
+** Fixed posts loop issues in the editor.
+** Add theme name prefix to functions and variables. 
+** Remove all links external link form patterns.
+** Change Theme URI link.
 
 = 1.0.1 April 27th 2024 =
 

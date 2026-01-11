@@ -21,7 +21,7 @@ if ( ! function_exists( 'ikreate_fse_register_block_patterns' ) ){
 
 		$patterns = array();
 
-		$block_pattern_categories = array(
+		$ikreate_fse_pattern_categories = array(
 			'ikreate-fse' => array( 'label' => esc_html__( 'Ikreate FSE', 'ikreate-fse' ) )
 		);
 
@@ -30,7 +30,7 @@ if ( ! function_exists( 'ikreate_fse_register_block_patterns' ) ){
 		 *
 		 * @since Ikreate FSE 1.0.0
 		 *
-		 * @param array[] $block_pattern_categories {
+		 * @param array[] $ikreate_fse_pattern_categories {
 		 *     An associative array of block pattern categories, keyed by category name.
 		 *
 		 *     @type array[] $properties {
@@ -40,9 +40,9 @@ if ( ! function_exists( 'ikreate_fse_register_block_patterns' ) ){
 		 *     }
 		 * }
 		 */
-		$block_pattern_categories = apply_filters( 'ikreate_fse_block_pattern_categories', $block_pattern_categories );
+		$ikreate_fse_pattern_categories = apply_filters( 'ikreate_fse_block_pattern_categories', $ikreate_fse_pattern_categories );
 
-		foreach ( $block_pattern_categories as $name => $properties ) {
+		foreach ( $ikreate_fse_pattern_categories as $name => $properties ) {
 
 			if ( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
 
@@ -683,7 +683,7 @@ add_action( 'enqueue_block_editor_assets', 'ikreate_fse_editor_assets' );
 function ikreate_fse_editor_assets() {
 	wp_enqueue_script(
 		'ikreatefse-block-variations',
-		get_parent_theme_file_uri( 'assets/js/block-variations.js' ),
+		get_parent_theme_file_uri( 'assets/js/ikreatefse-variations.js' ),
 		array( 
 			'wp-blocks', 
 			'wp-dom-ready',
@@ -695,7 +695,7 @@ function ikreate_fse_editor_assets() {
 	
 	wp_enqueue_style( 
 		'ikreatefse-block-variations', 
-		get_parent_theme_file_uri('assets/css/block-variations.css'),
+		get_parent_theme_file_uri('assets/css/ikreatefse-variations.css'),
 		wp_get_theme()->get( 'Version' ),
 		true
 	);

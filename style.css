@@ -1,10 +1,10 @@
 /*
 Theme Name: Ikreate FSE
-Theme URI: http://ikreatethemes.com/
+Theme URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
 Author: ikreatethemes
-Author URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
+Author URI: https://ikreatethemes.com/
 Description: Ikreate FSE is a fast and clean multi-purpose free WordPress theme, designed for various business-related websites. You can utilize this theme to launch a business, showcase your services, and enhance your website without the need for any coding experience. Ikreate FSE boasts 25+ pattern blocks and pre defind templates, providing users with additional design options for their website. Ikreate FSE is also responsive, browser compatible, SEO-friendly, RTL compatible, speed-optimized, and translation-ready. These elements ensure that your website is easily accessible, user-friendly, and search engine optimized, facilitating your target audience in finding your company online. If you encounter any issues while using our theme, you can refer to our theme documentation or reach out to our friendly support staff at [https://ikreatethemes.com/support/].
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 5.9
 Tested up to: 6.5
 Requires PHP: 7.2
@@ -18,6 +18,13 @@ Tags: full-site-editing, one-column, flexible-header, custom-colors, custom-menu
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+.widget a:not(.wp-block-button__link),
+.entry-summery a:not(.wp-block-button__link),
+.entry-content a:not(.wp-block-button__link) {
+  text-underline-offset: 5px;;
+  text-decoration: underline;
 }
 
 html {
@@ -470,8 +477,10 @@ textarea {
 
 /** Pagination **/
 .wp-block-query-pagination {
-  background-color: #fafafa;
-  padding: 15px;
+    background-color: #fafafa;
+    padding: 15px;
+    margin: 1rem 0;
+    border-radius: 5px;
 }
 .wp-block-query-pagination .wp-block-query-pagination-previous,
 .wp-block-query-pagination .wp-block-query-pagination-numbers,

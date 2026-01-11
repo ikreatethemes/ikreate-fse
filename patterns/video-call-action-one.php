@@ -18,12 +18,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Video Area"},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0"><!-- wp:cover {"url":"http://businessroy.local/wp-content/themes/business-roy-pro/patterns/images/services/slide-01.webp","id":2448,"dimRatio":50,"align":"wide","style":{"border":{"radius":"10px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignwide" style="border-radius:10px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2448" alt="" src="http://businessroy.local/wp-content/themes/business-roy-pro/patterns/images/services/slide-01.webp" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","className":"video_calltoaction_wrap","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/gallery/breadcrumb.webp","id":2448,"dimRatio":50,"align":"wide","style":{"border":{"radius":"10px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignwide" style="border-radius:10px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2448" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/gallery/breadcrumb.webp" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","className":"video_calltoaction_wrap","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide video_calltoaction_wrap"><!-- wp:group {"className":"box-shadow-ripples","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group box-shadow-ripples"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-video"} -->
-<div class="wp-block-button is-style-video"><a class="wp-block-button__link wp-element-button" href="https://www.youtube.com/watch?v=3ctoSEQsY54" target="_blank" rel="noreferrer noopener"><?php esc_html_e('Read More','ikreate-fse'); ?></a></div>
+<div class="wp-block-button is-style-video"><a class="wp-block-button__link wp-element-button" href="#" target="_blank" rel="noreferrer noopener"><?php esc_html_e('Read More','ikreate-fse'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

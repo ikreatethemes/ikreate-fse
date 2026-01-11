@@ -62,7 +62,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-primary-button"} -->
-<div class="wp-block-button is-style-primary-button"><a class="wp-block-button__link wp-element-button" href="https://ikreatethemes.com/wordpress-themes/" target="_blank" rel="noreferrer noopener"><?php esc_html_e('More About Us','ikreate-fse'); ?></a></div>
+<div class="wp-block-button is-style-primary-button"><a class="wp-block-button__link wp-element-button" href="#" target="_blank" rel="noreferrer noopener"><?php esc_html_e('More About Us','ikreate-fse'); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-secondary-button"} -->

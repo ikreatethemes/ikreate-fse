@@ -21,7 +21,7 @@
 <div class="wp-block-group video_calltoaction_wrap" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:group {"className":"box-shadow-ripples","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group box-shadow-ripples"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-video"} -->
-<div class="wp-block-button is-style-video"><a class="wp-block-button__link wp-element-button" href="https://www.youtube.com/watch?v=3ctoSEQsY54" target="_blank" rel="noreferrer noopener"><?php esc_html_e('Read More','ikreate-fse'); ?></a></div>
+<div class="wp-block-button is-style-video"><a class="wp-block-button__link wp-element-button" href="#" target="_blank" rel="noreferrer noopener"><?php esc_html_e('Read More','ikreate-fse'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

@@ -65,7 +65,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-primary-button"} -->
-<div class="wp-block-button is-style-primary-button"><a class="wp-block-button__link wp-element-button" href="https://ikreatethemes.com/wordpress-themes/" target="_blank" rel="noreferrer noopener"><?php esc_html_e('WordPress Themes','ikreate-fse'); ?></a></div>
+<div class="wp-block-button is-style-primary-button"><a class="wp-block-button__link wp-element-button" href="#" target="_blank" rel="noreferrer noopener"><?php esc_html_e('WordPress Themes','ikreate-fse'); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-secondary-button"} -->

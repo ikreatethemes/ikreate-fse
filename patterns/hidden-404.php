@@ -26,7 +26,7 @@
     <div class="wp-block-buttons">
         <!-- wp:button {"className":"is-style-primary-button"} -->
             <div class="wp-block-button is-style-primary-button">
-                <a class="wp-block-button__link wp-element-button" href="http://fse.local"><?php esc_html_e('Back To Home','ikreate-fse'); ?></a>
+                <a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e('Back To Home','ikreate-fse'); ?></a>
             </div>
         <!-- /wp:button -->
     </div>
