@@ -1,19 +1,19 @@
 === Ikreate FSE ===
 Contributors: ikreatethemes
-Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, sticky-post, theme-options, translation-ready, featured-images, rtl-language-support, block-patterns, block-styles, threaded-comments
-Requires at least: 5.8
-Tested up to: 6.5
-Requires PHP: 5.6
-Stable tag: 1.0.5
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+Requires at least: 5.9
+Tested up to: 6.8
+Requires PHP: 7.4
+Stable tag: 1.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Theme URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
+Theme URI: https://ikreatethemes.com/wordpress-theme/full-site-editing-wordpress-theme/
 
-Full Site Editing Free Theme
+Build modern business websites with Ikreate FSE — a fast, clean, and fully customizable Full Site Editing WordPress theme.
 
 == Description ==
 
-Ikreate FSE is a fast and clean multi-purpose free WordPress theme, designed for various business-related websites. You can utilize this theme to launch a business, showcase your services, and enhance your website without the need for any coding experience. Ikreate FSE boasts 25+ pattern blocks and pre defind templates, providing users with additional design options for their website. Ikreate FSE is also responsive, browser compatible, SEO-friendly, RTL compatible, speed-optimized, and translation-ready. These elements ensure that your website is easily accessible, user-friendly, and search engine optimized, facilitating your target audience in finding your company online. If you encounter any issues while using our theme, you can refer to our theme documentation or reach out to our friendly support staff at [https://ikreatethemes.com/support/].
+Ikreate FSE is a fast, clean, and powerful Full Site Editing WordPress theme designed for modern business websites. With full support for block-based editing, you can customize every part of your site—including headers, footers, templates, and global styles—directly in the Site Editor, without writing any code. The theme includes 35+ pre-designed block patterns and multiple ready-to-use templates, allowing you to create unique layouts in minutes. Whether you need a homepage, about page, services section, testimonials, or call-to-action, everything is ready to drag, drop, and personalize. Ikreate FSE is fully responsive, cross-browser compatible, SEO-friendly, RTL-ready, translation-ready, and speed-optimized—ensuring smooth performance across all devices and platforms. With Global Styles, you can manage colors, typography, and spacing site-wide for a consistent and professional design. If you encounter any issues while using our theme, please refer to our theme documentation or contact our friendly support staff at [https://ikreatethemes.com/support/].
 
 
 == Installation ==
@@ -42,11 +42,11 @@ Theme supports Jetpack, Contact Form 7, ikreate-addons and many more plugins.
 
 = Where can I find theme features ? =
 
-You can check our Theme features at https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
+You can check our Theme features at https://ikreatethemes.com/wordpress-theme/full-site-editing-wordpress-theme/
 
 = Where can I find theme demo? =
 
-You can check our Theme Demo at https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/#viewdemo
+You can check our Theme Demo at https://ikreatethemes.com/wordpress-theme/full-site-editing-wordpress-theme/
 
 
 == Copyright ==
@@ -91,33 +91,38 @@ Ikreate FSE is distributed under the terms of the GNU GPL.
 
 == Changelog ==
 
-= 1.0.5 May 22th 2024 =
-** Add Welcome Page
-** Fixed patterns desing issue.
-** Add 3 different one click demo import file.
+= 1.1.1 September 2nd 2025 =
+** Fixed major design issues.  
+** Added single post full-width templates.  
+** Added more patterns.  
+** Fixed theme.json.  
+** Fixed Welcome Page.  
+** Fixed pattern design issues.  
 
-= 1.0.4 May 13th 2024 =
-** Fixed Skip to content issue in front page.
-** Remove all pexels image and add new images.
+= 1.0.5 May 22nd, 2024 =
+** Added Welcome Page.  
+** Fixed pattern design issues.  
+** Added 3 different one-click demo import files.  
 
-= 1.0.3 May 6th 2024 =
-** Add home page.
-** Fixed link issue.
-** Fixed patterns issues.
+= 1.0.4 May 13th, 2024 =
+** Fixed "Skip to content" issue on the front page.  
+** Removed all Pexels images and replaced with new images.  
 
-= 1.0.2 April 30th 2024 =
+= 1.0.3 May 6th, 2024 =
+** Added Home Page.  
+** Fixed link issues.  
+** Fixed pattern issues.  
 
-** Fixed posts loop issues in the editor.
-** Add theme name prefix to functions and variables. 
-** Remove all links external link form patterns.
-** Change Theme URI link.
+= 1.0.2 April 30th, 2024 =
+** Fixed post loop issues in the editor.  
+** Added theme name prefix to functions and variables.  
+** Removed all external links from patterns.  
+** Updated Theme URI link.  
 
-= 1.0.1 April 27th 2024 =
+= 1.0.1 April 27th, 2024 =
+** Fixed design issues.  
+** Added GPL image license.  
+** Added testimonial pattern.  
 
-** Fixed design issues
-** Add image gpl license
-** Add testimonial pattern
-
-= 1.0.0 April 23th 2024 =
-
+= 1.0.0 April 23rd, 2024 =
 ** Submitted theme for review in http://wordpress.org

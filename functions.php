@@ -63,14 +63,13 @@ if ( ! function_exists( 'ikreate_fse_theme_support' ) ) {
 
 }
 
-
 if ( ! function_exists( 'ikreate_fse_ikreatethemes_fonts_url' ) ) :
 	/**
 	 * Register Google fonts for Ikreate FSE
 	 *
 	 * Create your own ikreate_fse_ikreatethemes_fonts_url() function to override in a child theme.
 	 *
-	 * @since 1.0
+	 * @since 1.0.0
 	 *
 	 * @return string Google fonts URL for the theme.
 	 */
@@ -102,12 +101,19 @@ if ( ! function_exists( 'ikreate_fse_ikreatethemes_fonts_url' ) ) :
 			$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css2' );
 		}
 
-		return $fonts_url;
+		if ( ! class_exists( 'WPTT_WebFont_Loader' ) ) {
+			// Load Google fonts from Local.
+			require_once get_theme_file_path( 'core/wptt-webfont-loader.php' );
+		}
+
+		return esc_url( wptt_get_webfont_url( $fonts_url ) );
+
 	}
 endif;
 
 
 add_action( 'wp_enqueue_scripts', 'ikreate_fse_ikreatethemes_load_scripts' );
+
 
 if ( ! function_exists( 'ikreate_fse_ikreatethemes_load_scripts' ) ) {
 	/**
@@ -150,103 +156,11 @@ endif;
 
 
 /**
- * Load core file.
+ * Local Theme Functions.
 */
-require_once get_template_directory() . '/core/init.php';
+require get_template_directory() . '/core/theme-function.php';
 
-
-/** 
- * Upgrade To Pro Version Get More Demo Import 
+/**
+ * Welcome Page.
 */
-if (!function_exists('Ikreate_Fse_DemoData_Importer')) {
-
-    function Ikreate_Fse_DemoData_Importer($demos) {
-
-        $ikreatefse = array(
-            'ikreatefse' => array(
-				'name' => 'Ikreate FSE',
-				'external_url' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/ikreatefse/ikreatefse.zip',
-				'image' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/ikreatefse/ikreatefse.png',
-				'preview_url' => 'https://demo.ikreatethemes.com/ikreatefse/',
-				'menuArray' => array(
-				),
-				'home_slug' => '',
-				'tags' => array(
-					'free' => 'Free',
-				),
-				'pagebuilder' => array(
-					'gutenburg' => "Gutenburg"
-				),
-				'plugins' => array(
-					'contact-form-7' => array(
-						'name' => 'Contact Form 7',
-						'source' => 'wordpress',
-						'file_path' => 'contact-form-7/wp-contact-form-7.php'
-					)
-				)   
-			),
-			'digitalagency' => array(
-				'name' => 'Digital Agency',
-				'external_url' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/digitalagency/digitalagency.zip',
-				'image' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/digitalagency/digitalagency.png',
-				'preview_url' => 'https://demo.ikreatethemes.com/ikreatefse/digital-agency/',
-				'menuArray' => array(
-				),
-				'home_slug' => '',
-				'tags' => array(
-					'free' => 'Free',
-				),
-				'pagebuilder' => array(
-					'gutenburg' => "Gutenburg"
-				),
-				'plugins' => array(
-					'contact-form-7' => array(
-						'name' => 'Contact Form 7',
-						'source' => 'wordpress',
-						'file_path' => 'contact-form-7/wp-contact-form-7.php'
-					)
-				)   
-			),
-			'medical' => array(
-				'name' => 'Medical',
-				'external_url' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/medical/medical.zip',
-				'image' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/medical/medical.png',
-				'preview_url' => 'https://demo.ikreatethemes.com/ikreatefse/medical/',
-				'menuArray' => array(
-				),
-				'home_slug' => '',
-				'tags' => array(
-					'free' => 'Free',
-				),
-				'pagebuilder' => array(
-					'gutenburg' => "Gutenburg"
-				),
-				'plugins' => array(
-					'contact-form-7' => array(
-						'name' => 'Contact Form 7',
-						'source' => 'wordpress',
-						'file_path' => 'contact-form-7/wp-contact-form-7.php'
-					)
-				)   
-			),
-			'premium' => array(
-				'name' => 'Coming Soon',
-				'external_url' => '#',
-				'image' => 'https://demo.ikreatethemes.com/demodata/ikreatefse/comingsoon.png',
-				'preview_url' => '#',
-				'menuArray' => array(
-				),
-				'home_slug' => '',
-				'tags' => array(
-					'premium' => 'Premium',
-				)   
-			) 
-		);
-
-        $demos = array_merge($demos, $ikreatefse);
-
-        return $demos;
-    }
-
-}
-add_filter('ikdi_demo_data_config', 'Ikreate_Fse_DemoData_Importer');
+require get_template_directory() . '/core/welcome/welcome.php';

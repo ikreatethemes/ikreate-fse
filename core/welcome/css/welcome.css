@@ -6,15 +6,12 @@
     content: "";
     display: table;
 }
-
 .clearfix:after {
     clear: both;
 }
-
 .welcome-wrap * {
     box-sizing: border-box;
 }
-
 .welcome-wrap {
     position: relative;
     margin: 25px 15px 2px;
@@ -22,25 +19,21 @@
     line-height: 1.5;
     color: #555d66
 }
-
 .welcome-wrap p {
     font-size: 15px;
     line-height: 1.5;
     color: #555d66
 }
-
 .welcome-main-content,
 .welcome-footer-content {
     background: #FFF;
     padding: 25px;
     margin-bottom: 50px;
 }
-
 .welcome-footer-content {
     margin-bottom: 0;
 }
-
-body.toplevel_page_ikreate_fse-welcome #wpfooter {
+body.toplevel_page_ikreatefse-welcome #wpfooter {
     position: fixed;
     background: #1d2427;
     color: #FFF;
@@ -53,52 +46,45 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
 .welcome-header {
     margin-bottom: 50px;
 }
-
 .welcome-intro {
-    width: 100%;
-    /* float: left; */
+    width: 70%;
+    float: left;
     font-size: 18px;
 }
-
 .welcome-intro h2 {
     font-size: 32px;
     margin: 0 0 20px;
 }
-
 .free-pro-demos {
     margin-top: 20px;
 }
-
 .free-pro-demos a.button {
     padding:4px 20px;
     line-height: 42px;
     margin-right: 20px;
     font-size: 16px;
 }
-
 .free-pro-demos a.button .dashicons {
     height: auto;
     width: auto;
     line-height: 42px;
     margin-right: 8px;
 }
-
 .free-pro-demos.livepreview {
     display: block;
     text-align: center;
     margin: 40px 0;
 }
 .free-pro-demos.livepreview a.button{
+    display: block;
     margin: 0;
     margin-bottom: 15px;
-    padding: 4px 85px;
 }
 .livepreview .documentation a {
     font-size: 16px;
     text-decoration: none;
     font-weight: 500;
 }
-
 .welcome-promo-banner {
     width: 25%;
     background: #fff;
@@ -107,12 +93,10 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     float: right;
     text-align: center;
 }
-
 .welcome-promo-banner p {
     font-weight: bold;
     font-size: 20px;
 }
-
 .welcome-promo-banner a.upgrade-btn {
     padding: 10px 20px;
     display: flex;
@@ -123,7 +107,6 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
 .welcome-promo-banner a.upgrade-btn span{
     margin-right: 8px;
 }
-
 .welcome-promo-offer {
     display: block !important;
     margin-bottom: 15px;
@@ -142,7 +125,6 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     padding: 15px 15px 0 15px;
     margin-bottom: 30px;
 }
-
 .welcome-nav-wrapper .welcome-nav-tab {
     padding: 14px 30px;
     text-decoration: none;
@@ -154,11 +136,9 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     border-radius: 5px 5px 0 0;
     box-shadow: none;
 }
-
 .welcome-nav-wrapper .welcome-nav-tab:hover {
     color: #007cba;
 }
-
 .welcome-nav-wrapper .welcome-nav-tab.welcome-nav-tab-active {
     background: #23282e;
     color: #FFF;
@@ -169,7 +149,6 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     display: flex;
     justify-content: space-between;
 }
-
 .welcome-manual-setup,
 .welcome-demo-import {
     width: 49%;
@@ -177,7 +156,6 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     border: 1px solid #EEE;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, .04);
 }
-
 .welcome-getting-started h3 {
     margin: 0 0 12px;
     font-size: 18px;
@@ -185,27 +163,22 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     padding: 0 0 12px;
     line-height: 30px;
 }
-
 .welcome-getting-started ol {
     margin: 0 0 20px 20px;
 }
-
 .welcome-getting-started p {
     margin: 0 0 20px;
 }
-
 .welcome-demo-import h3 {
     display: flex;
     justify-content: space-between;
 }
-
 .welcome-theme-thumb {
     padding-bottom: 72%;
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
 }
-
 .welcome-theme-thumb img {
     position: absolute;
     left: 0;
@@ -223,22 +196,18 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
 .recommended_plugins p{
     margin-top: 0;
 }
-
 .recomended-plugin-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
-
 .recommended-plugins {
     border: 1px solid #eeeeee;
 }
-
 .plugin-image img {
     width: 100%;
     padding: 20px;
 }
-
 .plugin-title-wrap {
     position: relative;
     font-size: 14px;
@@ -250,7 +219,6 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-
 .plugin-btn-wrapper {
     transition: opacity .1s ease-in-out;
     position: absolute;
@@ -263,14 +231,12 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     border-left: 1px solid rgba(0, 0, 0, .05);
 }
 
-
 /** Support **/
 .support-wrap {
     display: flex;
     justify-content: space-between;
     margin: 0 -15px;
 }
-
 .support-wrap .support-col {
     width: 50%;
     border: 1px solid #EEE;
@@ -278,11 +244,9 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     margin: 0 15px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, .04);
 }
-
 .support-wrap .support-col h3 {
     margin: 0;
 }
-
 .support-wrap .support-col p{
     font-size: 16px;
 }
@@ -292,7 +256,6 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     display: flex;
     margin: 0 -15px 40px;
 }
-
 .free-vs-pro-info {
     border: 1px solid #EEE;
     padding: 20px;
@@ -302,33 +265,27 @@ body.toplevel_page_ikreate_fse-welcome #wpfooter {
     text-align: center;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, .04);
 }
-
 .free-vs-pro-info h4 {
     font-weight: bold;
     margin: 0 0 10px;
 }
-
 .theme-steps:not(:first-child) {
     margin-top: 30px;
 }
-
 .free-vs-pro-info p {
     margin: 0;
 }
-
 table.comparison-table {
     border: #EEE 1px solid;
     width: 100%;
     border-collapse: collapse;
 }
-
 table.comparison-table th,
 table.comparison-table td {
     border: 1px solid #EEE;
     padding: 15px;
     text-align: left;
 }
-
 table.comparison-table th:nth-child(2),
 table.comparison-table td:nth-child(2),
 table.comparison-table th:nth-child(3),
@@ -336,32 +293,26 @@ table.comparison-table td:nth-child(3) {
     text-align: center;
     width: 140px;
 }
-
 table.comparison-table th {
     background: #F6F6F6;
     font-size: 20px;
     padding: 25px 15px;
 }
-
 table.comparison-table th p:last-child,
 table.comparison-table td p:last-child {
     margin-bottom: 0;
 }
-
 table.comparison-table td span {
     font-weight: bold;
 
 }
-
 table.comparison-table tr:hover {
     background: #F6F6F6;
 }
-
 table.comparison-table td:nth-child(2) img,
 table.comparison-table td:nth-child(3) img {
     width: 40px;
 }
-
 a.buy-pro-btn {
     display: block;
     background: #b92424;
@@ -371,7 +322,6 @@ a.buy-pro-btn {
     text-align: center;
     white-space: nowrap;
 }
-
 a.buy-pro-btn:hover {
     background: #981f1f
 }
@@ -382,111 +332,88 @@ a.buy-pro-btn:hover {
     width: 90%;
     margin: 0 auto;
 }
-
 .welcome-upgrade-header h3 {
     margin: 0 0 10px;
 }
-
 .welcome-upgrade-header p {
     font-size: 18px;
 }
-
 .welcome-upgrade-box {
-    border: 2px dashed #DDD;
+    border: 2px dashed #dddddd;
     padding: 25px 100px;
     text-align: center;
-    margin-top: 50px;
     background: #F6F6F6;
 }
-
 .upgrade-box-text h3 {
     font-size: 26px;
     margin-bottom: 0;
 }
-
 .upgrade-box-text p {
     font-size: 18px;
 }
-
 .welcome-upgrade-box .upgrade-button {
     display: inline-block;
-    padding: 14px 30px;
+    padding: 14px 50px;
     background: #2271b1;
     color: #FFF;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 /** Welcome Notice **/
-.ikreate_fse-welcome-notice-wrap {
+.ikreatefse-welcome-notice-wrap {
     position: relative;
     padding: 20px;
 }
-
-.ikreate_fse-welcome-notice-wrap h2 {
+.ikreatefse-welcome-notice-wrap h2 {
     font-size: 20px;
     margin: 0 0 5px;
 }
-
-.notice .ikreate_fse-welcome-notice-wrap>p {
+.notice .ikreatefse-welcome-notice-wrap>p {
     font-size: 16px;
     margin: 0 0 25px;
 }
-
-.ikreate_fse-welcome-info {
+.ikreatefse-welcome-info {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 300px 360px 360px;
     gap: 2rem;
 }
-
-.ikreate_fse-welcome-info .ikreate_fse-welcome-thumb {
-    width: 250px;
-}
-
-.ikreate_fse-welcome-thumb img {
-    width: 100%;
+.ikreatefse-welcome-info .ikreatefse-welcome-thumb img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.ikreate_fse-welcome-info h2 {
+.ikreatefse-welcome-info h2 {
     margin: 0 0 15px;
 }
-
-.notice .ikreate_fse-welcome-info p {
+.notice .ikreatefse-welcome-info p {
     font-size: 15px;
 }
-
-.ikreate_fse-welcome-info .button {
+.ikreatefse-welcome-info .button {
     padding: 15px 20px;
     line-height: 1.2;    
     border-radius: 5px;
     font-size: 16px;
 }
-
-.ikreate_fse-welcome-info .button-primary.updating-message:before {
+.ikreatefse-welcome-info .button-primary.updating-message:before {
     margin: 0px 5px 0 0;
     height: auto;
     font-size: 18px;
 }
-
 .free-pro-demos .button-primary.updating-message:before{
     margin-top: 10px;
 }
-
-.ikreate_fse-welcome-notice-wrap .notice-close {
+.ikreatefse-welcome-notice-wrap .notice-close {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 10px 15px 10px 21px;
-    font-size: 13px;
-    line-height: 1.2;
+    top: 0;
+    right: 0;
+    padding: 10px 15px 10px 0;
     text-decoration: none;
 }
-
-.ikreate_fse-welcome-notice-wrap .notice-close:before {
+.ikreatefse-welcome-notice-wrap .notice-close:before {
     position: absolute;
     top: 8px;
     left: 0;
@@ -500,14 +427,13 @@ a.buy-pro-btn:hover {
     text-align: center;
     width: 20px;
 }
-
-.ikreate_fse-welcome-notice-wrap .notice-close:hover,
-.ikreate_fse-welcome-notice-wrap .notice-close:hover:before {
+.ikreatefse-welcome-notice-wrap .notice-close:hover,
+.ikreatefse-welcome-notice-wrap .notice-close:hover:before {
     color: #FF0000;
 }
 
 /** Footer Review **/
-body.appearance_page_ikreate_fse-welcome #wpfooter {
+body.appearance_page_ikreatefse-welcome #wpfooter {
     position: fixed;
     background: #23282e;
     color: #FFF;
@@ -515,8 +441,7 @@ body.appearance_page_ikreate_fse-welcome #wpfooter {
     left: 40px;
     margin-right: 40px;
 }
-
-body.appearance_page_ikreate_fse-welcome #wpfooter a {
+body.appearance_page_ikreatefse-welcome #wpfooter a {
     color: #FFF;
 }
 
@@ -525,52 +450,42 @@ body.appearance_page_ikreate_fse-welcome #wpfooter a {
     .welcome-wrap {
         margin: 30px 30px 0 20px;
     }
-
     .welcome-main-content,
     .welcome-footer-content {
         padding: 20px;
     }
-
     .welcome-intro,
     .welcome-promo-banner {
-        width: auto;
+        width: 100%;
         float: none;
+        text-align: center;
     }
-
     .welcome-intro {
         margin-bottom: 40px;
     }
-
     .welcome-nav-wrapper {
         display: block;
         padding-bottom: 15px;
     }
-
     .welcome-nav-wrapper .welcome-nav-tab {
         display: block;
         margin: 0 0 5px;
         border-radius: 4px;
         text-align: center;
     }
-
-    .recommended-plugins {
-        width: 46%;
-        margin-top: 30px;
+    .recomended-plugin-wrap {
+        grid-template-columns: repeat(2, 1fr);
     }
-
     .plugin-title-wrap {
         padding: 16px 15px;
     }
-
     .plugin-btn-wrapper {
         height: 58px;
     }
-
     .welcome-upgrade-box {
         padding: 40px;
     }
-
-    .ikreate_fse-welcome-info .ikreate_fse-welcome-thumb {
+    .ikreatefse-welcome-info .ikreatefse-welcome-thumb {
         display: none;
     }
 
@@ -580,21 +495,17 @@ body.appearance_page_ikreate_fse-welcome #wpfooter a {
     .welcome-getting-started {
         display: block;
     }
-
     .welcome-manual-setup,
     .welcome-demo-import {
         width: auto;
         padding: 20px;
     }
-
     .welcome-manual-setup {
         margin-bottom: 40px;
     }
-
     .recomended-plugin-wrap {
         margin-left: 0;
     }
-
     .recommended-plugins {
         width: auto;
         float: none;
@@ -602,41 +513,35 @@ body.appearance_page_ikreate_fse-welcome #wpfooter a {
         margin-left: auto;
         margin-right: auto;
     }
-
     .support-wrap,
     .free-vs-pro-info-wrap {
         display: block;
     }
-
     .support-wrap .support-col,
     .free-vs-pro-info {
         width: auto;
         margin-bottom: 40px;
     }
-
     .support-wrap .support-col:last-child,
     .free-vs-pro-info:last-child {
         margin-bottom: 0;
     }
-
     table.comparison-table th,
     table.comparison-table td {
         display: block;
         width: 100% !important;
         text-align: left !important;
     }
-
-    .ikreate_fse-welcome-info {
+    .ikreatefse-welcome-info {
         display: block;
     }
-
-    .ikreate_fse-welcome-info>.ikreate_fse-welcome-import,
-    .ikreate_fse-welcome-info>.ikreate_fse-welcome-getting-started {
+    .ikreatefse-welcome-info>.ikreatefse-welcome-import,
+    .ikreatefse-welcome-info>.ikreatefse-welcome-getting-started {
         width: auto;
         margin: 0 0 30px;
     }
 
-    .ikreate_fse-welcome-info>.ikreate_fse-welcome-getting-started {
+    .ikreatefse-welcome-info>.ikreatefse-welcome-getting-started {
         margin-bottom: 0;
     }
 }

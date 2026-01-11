@@ -12,12 +12,12 @@
 <p class="has-text-align-center has-secondary-color has-text-color has-medium-font-size" style="text-decoration:underline"><strong><?php esc_html_e('Challenges Are Our Passion','ikreate-fse'); ?></strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","textColor":"wwhite","fontSize":"large"} -->
-<h2 class="wp-block-heading has-text-align-center has-wwhite-color has-text-color has-large-font-size"><?php esc_html_e('We Can Give You The Best Support','ikreate-fse'); ?></h2>
+<!-- wp:heading {"textAlign":"center","textColor":"white","fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-white-color has-text-color has-large-font-size"><?php esc_html_e('We Can Give You The Best Support','ikreate-fse'); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e('Business WordPress themes have been optimized to give our visitors the best experience in terms of theme support. The Perfect Clean Design Framework for Startup Your Businesses.','ikreate-fse'); ?></p>
+<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+<p class="has-text-align-center has-small-font-size"><?php esc_html_e('Business WordPress themes have been optimized to give our visitors the best experience in terms of theme support. The Perfect Clean Design Framework for Startup Your Businesses.','ikreate-fse'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

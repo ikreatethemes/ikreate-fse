@@ -13,7 +13,7 @@
     <div class="wp-block-cover__inner-container">
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group">
-            <!-- wp:post-title {"textAlign":"center","level":1} /-->
+            <!-- wp:post-title {"textAlign":"center","fontSize":"xlarge"} /-->
         </div>
         <!-- /wp:group -->
     </div>

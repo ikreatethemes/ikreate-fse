@@ -1,0 +1,44 @@
+<?php
+/**
+ * Title: Header ( Default )
+ * Slug: ikreate-fse/header-default
+ * Categories: ikreate-fse
+ */
+?>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"primary","className":"alignfull header-default"} -->
+    <div class="wp-block-group alignfull header-default has-primary-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+        <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group alignwide">
+                <!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+                    <div class="wp-block-group alignwide">
+                        <!-- wp:group {"layout":{"type":"flex"}} -->
+                        <div class="wp-block-group">
+                            <!-- wp:site-logo {"width":250,"shouldSyncIcon":true} /-->
+                            <!-- wp:site-title /-->
+                        </div>
+                        <!-- /wp:group -->
+
+                        <!-- wp:navigation {"ref":35,"textColor":"white","overlayBackgroundColor":"primary","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal","flexWrap":"wrap"}} /-->
+
+                        <!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+                        <div class="wp-block-group has-white-color has-text-color has-link-color">
+                            <!-- wp:buttons -->
+                                <div class="wp-block-buttons">
+                                    <!-- wp:button {"backgroundColor":"secondary","textColor":"white","className":"is-style-primary-button","style":{"typography":{"textTransform":"uppercase"},"border":{"radius":"50px"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
+                                        <div class="wp-block-button is-style-primary-button">
+                                            <a class="wp-block-button__link has-white-color has-secondary-background-color has-text-color has-background has-link-color wp-element-button" href="#" style="border-radius:50px;text-transform:uppercase" target="_blank" rel="noreferrer noopener">
+                                                <?php esc_html_e('Book Now','ikreate-fse'); ?>
+                                            </a>
+                                        </div>
+                                    <!-- /wp:button -->
+                                </div>
+                            <!-- /wp:buttons -->
+                        </div>
+                        <!-- /wp:group -->
+
+                    </div>
+                <!-- /wp:group -->
+            </div>
+        <!-- /wp:group -->
+    </div>
+<!-- /wp:group -->

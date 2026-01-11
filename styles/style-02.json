@@ -79,15 +79,15 @@
             "duotone": [
                 {
                     "colors": [
-                    "#003432",
-                    "#00BC87"
+                    "#000000",
+                    "#fb5b21"
                     ],
                     "slug": "primary-and-secondary",
                     "name": "Primary and Secondary"
                 },
                 {
                     "colors": [
-                    "#003432",
+                    "#000000",
                     "#28a745"
                     ],
                     "slug": "primary-and-success",
@@ -95,7 +95,7 @@
                 },
                 {
                     "colors": [
-                    "#003432",
+                    "#000000",
                     "#e42032"
                     ],
                     "slug": "primary-and-error",
@@ -103,7 +103,7 @@
                 },
                 {
                     "colors": [
-                    "#00BC87",
+                    "#fb5b21",
                     "#28a745"
                     ],
                     "slug": "secondary-and-success",
@@ -111,7 +111,7 @@
                 },
                 {
                     "colors": [
-                    "#00BC87",
+                    "#fb5b21",
                     "#e42032"
                     ],
                     "slug": "secondary-and-error",
@@ -127,8 +127,8 @@
                 },
                 {
                     "colors": [
-                    "#003432",
-                    "#003432a6"
+                    "#000000",
+                    "#000000a6"
                     ],
                     "slug": "primary-and-shadow",
                     "name": "Primary and Shadow Opacity"
@@ -190,7 +190,7 @@
                     "gradient": "radial-gradient(circle,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--success) 100%)",
                     "name": "Radial Secondary to Success"
                 },
-                {
+				{
                     "slug": "linear-primary-to-secondary",
                     "gradient": "linear-gradient(145deg, var(--wp--preset--color--primary) 10%, var(--wp--preset--color--secondary) 140%)",
                     "name": "Linear Primary to Secondary"
@@ -199,17 +199,17 @@
             "palette": [
                 {
                     "slug": "primary",
-                    "color": "#003432",
+                    "color": "#000000",
                     "name": "Primary"
                 },
                 {
                     "slug": "secondary",
-                    "color": "#00BC87",
+                    "color": "#fb5b21",
                     "name": "Secondary"
                 },
                 {
                     "slug": "linkhover",
-                    "color": "#003432",
+                    "color": "#000000",
                     "name": "Link Hover"
                 },
                 {
@@ -224,7 +224,7 @@
                 },
                 {
                     "slug": "shadowopacity",
-                    "color": "#003432a6",
+                    "color": "#000000a6",
                     "name": "Shadow Opacity"
                 }
             ]
@@ -492,7 +492,7 @@
     },
     "styles": {
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--poppins)",
+            "fontFamily": "var(--wp--preset--font-family--lato)",
             "fontSize": "var(--wp--preset--font-size--xsmall)",
             "lineHeight": "1.6"
         },
@@ -506,7 +506,7 @@
                     "text": "var(--wp--preset--color--black)"
                 },
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--poppins)",
+                    "fontFamily": "var(--wp--preset--font-family--lato)",
                     "fontWeight": "var(--wp--custom--typography--font-weight--medium)",
                     "lineHeight": "1.5"
                 }
@@ -556,7 +556,7 @@
             },
             "caption": {
                 "typography": {
-                    "fontFamily": "var:preset|font-family|poppins"
+                    "fontFamily": "var:preset|font-family|lato"
                 }
             }
         },
@@ -694,6 +694,9 @@
                         "top": "0",
                         "bottom": "0"
                     }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--black)"
                 },
                 "typography": {
                     "lineHeight": "1",
