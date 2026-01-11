@@ -6,8 +6,8 @@
   * Keywords: contact, contact area, contact area two, contact section
   */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"Contact Us One"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-primary-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","className":"box-shadow"} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Contact Us Two"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:group {"align":"wide","className":"testimonial-block-wrap","layout":{"type":"grid","minimumColumnWidth":"20rem"}} -->
 <div class="wp-block-group alignwide testimonial-block-wrap"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"},"border":{"radius":"10px"}},"textColor":"background","className":"box-shadow","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group box-shadow has-background-color has-text-color" style="border-radius:10px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:image {"id":5283,"width":"60px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#003432","#f6f6f6"]}}} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/location.png" alt="" class="wp-image-5283" style="width:60px"/></figure>

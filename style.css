@@ -4,7 +4,7 @@ Theme URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-edit
 Author: ikreatethemes
 Author URI: https://ikreatethemes.com/
 Description: Ikreate FSE is a fast and clean multi-purpose free WordPress theme, designed for various business-related websites. You can utilize this theme to launch a business, showcase your services, and enhance your website without the need for any coding experience. Ikreate FSE boasts 25+ pattern blocks and pre defind templates, providing users with additional design options for their website. Ikreate FSE is also responsive, browser compatible, SEO-friendly, RTL compatible, speed-optimized, and translation-ready. These elements ensure that your website is easily accessible, user-friendly, and search engine optimized, facilitating your target audience in finding your company online. If you encounter any issues while using our theme, you can refer to our theme documentation or reach out to our friendly support staff at [https://ikreatethemes.com/support/].
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 5.9
 Tested up to: 6.5
 Requires PHP: 7.2
@@ -22,7 +22,8 @@ Tags: full-site-editing, one-column, flexible-header, custom-colors, custom-menu
 
 .widget a:not(.wp-block-button__link),
 .entry-summery a:not(.wp-block-button__link),
-.entry-content a:not(.wp-block-button__link) {
+.entry-content a:not(.wp-block-button__link),
+a {
   text-underline-offset: 5px;;
   text-decoration: underline;
 }
@@ -495,7 +496,7 @@ textarea {
  * Single Post & Details
 */
 .post-meta.wp-block-template-part {
-  padding: 0 0 15px;
+  padding:15px 0;
 }
 .post-meta .wp-block-post-author__avatar {
   margin-right: 0.5em;

@@ -1,7 +1,7 @@
 <?php
  /**
   * Title: Breadcrumb
-  * Slug: ikreate-fse/Breadcrumb
+  * Slug: ikreate-fse/breadcrumb
   * Categories: ikreate-fse
   * Keywords: breadcrumb, breadcrumb area, breadcrumb section
   */
@@ -13,7 +13,7 @@
     <div class="wp-block-cover__inner-container">
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group">
-            <!-- wp:post-title {"textAlign":"center","level":1,"align":"wide"} /-->
+            <!-- wp:post-title {"textAlign":"center","level":1} /-->
         </div>
         <!-- /wp:group -->
     </div>

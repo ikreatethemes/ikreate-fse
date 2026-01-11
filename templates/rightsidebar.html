@@ -1,36 +1,36 @@
 <!-- wp:template-part {"slug":"header","area":"header","tagName":"header","className":"site-header"} /-->
 
-<!-- wp:pattern {"slug":"ikreate-fse/breadcrumb","theme":"ikreate-fse","tagName":"general"} /-->
+<!-- wp:template-part {"slug":"breadcrumb","theme":"ikreate-fse","tagName":"general"} /-->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group">
+	<!-- wp:group {"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group">
 
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
-	
-		<!-- wp:column {"width":"70%"} -->
-		<div class="wp-block-column" style="flex-basis:70%">
-			<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-			<main class="wp-block-group box-shadow-page">
-				
-				<!-- wp:post-featured-image {"aspectRatio":"16/9"} /-->
-
-				<!-- wp:post-content {"lock":{"move":false,"remove":true},"className":"ikreate-fse-page-content","layout":{"type":"constrained"}} /-->
-			
-			</main>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"30%"} -->
-		<div class="wp-block-column" style="flex-basis:30%">
-			<!-- wp:template-part {"slug":"sidebar","tagName":"aside"} /-->
-		</div>
-		<!-- /wp:column -->
+		<!-- wp:columns {"align":"wide"} -->
+		<div class="wp-block-columns alignwide">
 		
+			<!-- wp:column {"width":"70%"} -->
+			<div class="wp-block-column" style="flex-basis:70%">
+				<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+				<main class="wp-block-group box-shadow-page">
+					
+					<!-- wp:post-featured-image {"aspectRatio":"16/9"} /-->
+
+					<!-- wp:post-content {"lock":{"move":false,"remove":true},"className":"ikreate-fse-page-content","layout":{"type":"constrained"}} /-->
+				
+				</main>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column {"width":"30%"} -->
+			<div class="wp-block-column" style="flex-basis:30%">
+				<!-- wp:template-part {"slug":"sidebar","tagName":"aside"} /-->
+			</div>
+			<!-- /wp:column -->
+			
+		</div>
+		<!-- /wp:columns -->
 	</div>
-	<!-- /wp:columns -->
-</div>
-<!-- /wp:group -->
+	<!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer","className":"footer-header"} /-->

@@ -126,8 +126,6 @@ if ( ! function_exists( 'ikreate_fse_ikreatethemes_load_scripts' ) ) {
 		//Styles.
 		wp_enqueue_style( 'ikreatefse-style', get_stylesheet_uri(), date( 'Ymd-Gis', filemtime( get_theme_file_path( 'style.css' ) ) ), IKREATE_FSE_VERSION );
 
-		// Scripts.
-		wp_enqueue_script( 'ikreatefse-js', get_template_directory_uri(). '/assets/js/ikreatefse.js', array(), IKREATE_FSE_VERSION, true );
 	}
 }
 

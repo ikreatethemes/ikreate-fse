@@ -4,7 +4,7 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, c
 Requires at least: 5.8
 Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Theme URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
@@ -84,13 +84,14 @@ Ikreate FSE is distributed under the terms of the GNU GPL.
 	https://www.pexels.com/photo/a-portrait-of-a-man-wearing-wireless-earphones-8053511/
 
 	https://www.pexels.com/photo/portrait-photo-of-smiling-man-with-his-arms-crossed-standing-in-front-of-a-wall-2379004/
-
-	https://pxhere.com/en/photo/1456581
-
-	https://pxhere.com/en/photo/1629588
 	
 
 == Changelog ==
+
+= 1.0.3 May 6th 2024 =
+** Add home page.
+** Fixed link issue.
+** Fixed patterns issues.
 
 = 1.0.2 April 30th 2024 =
 
