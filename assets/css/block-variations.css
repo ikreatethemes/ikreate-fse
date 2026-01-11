@@ -251,19 +251,6 @@
     list-style-type: none;
 }
 
-
-/** Navigation Menu **/
-.wp-block-navigation__container{
-    gap: 0;
-}
-.wp-block-navigation .wp-block-navigation-item{
-    padding: 30px 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.2px;
-    /* color: var(--wp--preset--color--wwhite); */
-}
-
 /** Sidebar ( Widget Area ) */
 .widget-area .wp-block-group{
   background-color: #fafafa;
@@ -282,8 +269,19 @@
 
 
 /** Navigation Menu **/
-.wp-block-navigation .wp-block-navigation-item.current-menu-item>a,
-.wp-block-navigation .wp-block-navigation-item:hover{
+.wp-block-navigation__container{
+  gap: 0;
+}
+
+.header-default .wp-block-navigation .wp-block-navigation-item{
+  padding: 30px 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.header-default .wp-block-navigation .wp-block-navigation-item.current-menu-item>a,
+.header-default .wp-block-navigation .wp-block-navigation-item:hover{
     background: var(--wp--preset--color--secondary);
 }
 
@@ -292,21 +290,43 @@
     padding: 0;
     margin: 0;
 }
-.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container,
-.wp-block-navigation .wp-block-navigation-submenu{
+.header-default .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container,
+.header-default .wp-block-navigation .wp-block-navigation-submenu{
     border: 0;
 }
 
-.wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item a{
-    padding: 15px 20px;
+.header-default .wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item{
+    padding: 0;
 }
 
-.wp-block-navigation .wp-block-navigation__submenu-icon{
+.header-default .wp-block-navigation .wp-block-navigation__submenu-icon{
     font-size: 25px;
     transition: all .3s ease-in-out;
     transform: rotate(-90deg);
     background: transparent;
 }
-.wp-block-navigation-item.wp-block-navigation-submenu:hover .wp-block-navigation__submenu-icon{
+.header-default .wp-block-navigation-item.wp-block-navigation-submenu:hover .wp-block-navigation__submenu-icon{
     transform: rotate(0deg);
+}
+
+/** Footer Area **/
+.footer-default .wp-block-navigation .wp-block-navigation-item {
+  padding-bottom: 12px;
+  align-items: flex-start;
+}
+.footer-default .wp-block-navigation .wp-block-navigation-item:before {
+  content: "\f12a";
+  font-family: "dashicons";
+  color: var(--wp--preset--color--wwhite);
+  margin-right: 5px;
+}
+.footer-default .wp-block-navigation .wp-block-navigation-item:last-child{
+  padding-bottom: 0;
+}
+.footer-default .wp-block-navigation .wp-block-navigation-item a{
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.footer-default .wp-block-navigation .wp-block-navigation-item a:hover{
+  color: var(--wp--preset--color--secondary);
 }

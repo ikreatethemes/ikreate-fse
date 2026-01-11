@@ -253,7 +253,7 @@ if ( ! function_exists( 'ikreate_fse_register_block_patterns' ) ){
 				.is-style-checkmark-list li:before {
 					content: "\f12a";
 					font-family: "dashicons";
-					color: var(--theme-color);
+					color: var(--wp--preset--color--primary);
 					margin-right: 5px;
 				}',
 			)
@@ -292,7 +292,7 @@ if ( ! function_exists( 'ikreate_fse_register_block_patterns' ) ){
 				.is-style-circle-list li:before {
 					content: "\f159";
 					font-family: "dashicons";
-					color: var(--theme-color);
+					color: var(--wp--preset--color--primary);
 					margin-right: 5px;
 				}',
 			)

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ikreate FSE\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 14:24+0000\n"
+"POT-Creation-Date: 2024-04-27 09:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,6 +15,14 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.7; wp-6.5.2\n"
 "X-Domain: ikreate-fse"
+
+#: patterns/testimonial.php:32
+msgid ""
+"\"Welcome and thank you for installing our free WordPress themes. Ikreate "
+"FSE is a clean, beautiful, and fully customizable responsive modern free "
+"WordPress business theme, especially for App-related landing pages. And of "
+"course, the premium version for additional features and better support.\""
+msgstr ""
 
 #: patterns/contact-area-two.php:35 patterns/contact-area-one.php:57
 msgid "( Give us a free any time )"
@@ -34,6 +42,10 @@ msgstr ""
 
 #: patterns/contact-area-two.php:21 patterns/contact-area-one.php:39
 msgid "1010 Avenue, New York NY 10018 US & Koteshwor - 32, Kathmandu, Nepal"
+msgstr ""
+
+#: patterns/testimonial.php:18
+msgid "20k+ Satisfied Clients World Wide"
 msgstr ""
 
 #: patterns/contact-area-two.php:31 patterns/contact-area-one.php:53
@@ -615,7 +627,7 @@ msgid ""
 "Live workshop where we define the main problems and challenges of building"
 msgstr ""
 
-#: patterns/team.php:102
+#: patterns/team.php:102 patterns/testimonial.php:45
 msgid "Manager"
 msgstr ""
 
@@ -629,6 +641,10 @@ msgstr ""
 
 #: patterns/aboutus-two.php:86 patterns/about-us.php:57
 msgid "Micle Duneesz"
+msgstr ""
+
+#: patterns/testimonial.php:41
+msgid "Mike Fermalin"
 msgstr ""
 
 #: patterns/quick-contact.php:18
@@ -859,6 +875,11 @@ msgctxt "Pattern title"
 msgid "Team Member Two"
 msgstr ""
 
+#: patterns/testimonial.php:2
+msgctxt "Pattern title"
+msgid "Testimonials"
+msgstr ""
+
 #: patterns/video-call-action.php:2
 msgctxt "Pattern title"
 msgid "Video Call To Action"
@@ -1036,6 +1057,10 @@ msgstr ""
 #: theme.json:1
 msgctxt "Template part name"
 msgid "Sidebar"
+msgstr ""
+
+#: patterns/testimonial.php:14
+msgid "Testimonials"
 msgstr ""
 
 #: patterns/gallery.php:59 patterns/gallery.php:99 patterns/gallery.php:155

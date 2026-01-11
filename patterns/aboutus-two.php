@@ -11,7 +11,7 @@
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":5391,"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#003432","#f6f6f6"]},"border":{"radius":"50px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/about-section-1.png" alt="" class="wp-image-5391" style="border-radius:50px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/about-section-1.webp" alt="" class="wp-image-5391" style="border-radius:50px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -77,7 +77,7 @@
 <div class="wp-block-group" style="padding-top:20px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":2974,"width":"60px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/team/team-1-ik.jpg" alt="" class="wp-image-2974" style="width:60px"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/team/team-1-ik.webp" alt="" class="wp-image-2974" style="width:60px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

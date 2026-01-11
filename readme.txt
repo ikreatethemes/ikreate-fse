@@ -4,7 +4,7 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, c
 Requires at least: 5.8
 Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Theme URI: https://ikreatethemes.com/wordpress-themes/ikreate-fse-full-site-editing-wordpress-theme/
@@ -67,6 +67,24 @@ Ikreate FSE is distributed under the terms of the GNU GPL.
 
 	https://www.pexels.com/photo/group-of-people-sitting-inside-room-2422294/
 
+	https://www.pexels.com/photo/group-of-people-near-wall-2422290/
+
+	https://www.pexels.com/photo/happy-couple-reading-together-4669840/
+
+	https://www.pexels.com/photo/woman-discussing-problem-during-group-therapy-7176305/
+
+	https://www.pexels.com/photo/overwhelmed-black-man-discussing-problem-with-female-psychologist-5699467/
+
+	https://www.pexels.com/photo/black-psychologist-with-african-american-client-5699424/
+
+	https://www.pexels.com/photo/flat-lay-photography-of-person-touching-silver-ipad-on-world-map-chart-beside-black-hat-1051077/
+
+	https://www.pexels.com/photo/man-looking-at-ipad-pro-2698465/
+
+	https://www.pexels.com/photo/a-portrait-of-a-man-wearing-wireless-earphones-8053511/
+
+	https://www.pexels.com/photo/portrait-photo-of-smiling-man-with-his-arms-crossed-standing-in-front-of-a-wall-2379004/
+
 	https://pxhere.com/en/photo/1456581
 
 	https://pxhere.com/en/photo/1629588
@@ -74,6 +92,12 @@ Ikreate FSE is distributed under the terms of the GNU GPL.
 
 == Changelog ==
 
+= 1.0.1 April 27th 2024 =
+
+** Fixed design issues
+** Add image gpl license
+** Add testimonial pattern
+
 = 1.0.0 April 23th 2024 =
 
-* Submitted theme for review in http://wordpress.org
+** Submitted theme for review in http://wordpress.org
